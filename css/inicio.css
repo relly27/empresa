@@ -1,0 +1,116 @@
+*{
+    margin: auto;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    background: url('../img/fondoN.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+
+  }
+
+.cuerpo {
+ 
+    margin: 10% auto;
+    text-align: center;
+    align-items: center;
+
+}
+
+.cuerpo .caja_usuario {   
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px auto;
+    width: 30%;
+    height: auto;
+    padding: 30px;
+    border: 2px ;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;    
+}
+
+.cuerpo .caja_usuario .caja_tex{
+    background-color: rgba(182, 114, 190, 0.39);
+    border-radius: 10px;
+    border: 2px;
+    width: 80%;
+    height: 250px;
+    margin: 20px auto;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+}
+
+.cuerpo .caja_usuario .caja_tex .form-element{
+   /* background-color: red;*/
+    margin: auto 10%;
+    height: 150px;
+    text-align: center;
+
+
+}
+
+.cuerpo .caja_usuario .caja_tex .form-element input[type="text"], .cuerpo .caja_usuario .caja_tex .form-element input[type="password"]{
+    max-width:400px;
+	width: 60%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em auto;
+    border-radius:5px;
+    border:2px solid #f2f2f2;
+    outline:none;
+    padding-left:10px;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    
+}
+
+
+
+.cuerpo .caja_usuario .caja_tex button{
+   
+   
+    margin: 10px auto;
+   
+    
+    
+}
+
+.cuerpo .caja_usuario .caja_tex button[type="submit"]{
+   
+    height:30px;
+    width:50%;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    color: slategrey;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    
+}
+
+.pie {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+}
+
+.pie .copy {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
