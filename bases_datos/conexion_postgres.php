@@ -3,7 +3,7 @@
 $servidor = "localhost";
 $db = "empresa";
 $user = "postgres";
-$password = "27561321";
+$password = "xxxx";
 
 $conexion=pg_connect("host=$servidor user=$user password=$password dbname=$db"); // or die ("<h1>Error de conexion.</h1> ". pg_last_error()); //or die (pg_last_error('error al conectar la base de datos')); //return $conexion;
 
